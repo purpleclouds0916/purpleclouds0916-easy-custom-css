@@ -22,6 +22,8 @@
   },
   "plugins": ["@typescript-eslint", "react", "jsx-a11y", "react-hooks"],
   "rules": {
+    "semi": "off",
+    "@typescript-eslint/semi": ["error", "always"],
     "padding-line-between-statements": [
       "error",
       {
