@@ -22,8 +22,7 @@
   },
   "plugins": ["@typescript-eslint", "react", "jsx-a11y", "react-hooks"],
   "rules": {
-    "semi": "off",
-    "@typescript-eslint/semi": ["error", "always"],
+    "space-before-function-paren": "off",
     "padding-line-between-statements": [
       "error",
       {
@@ -32,6 +31,9 @@
         "next": "return"
       }
     ],
+    "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/semi": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": ["error"],
