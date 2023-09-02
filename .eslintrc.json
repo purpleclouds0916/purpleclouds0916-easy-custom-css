@@ -56,18 +56,7 @@
         "types": "always"
       }
     ],
-    "import/extensions": [
-      "error",
-      {
-        "ignorePackages": true,
-        "pattern": {
-          "js": "never",
-          "jsx": "never",
-          "ts": "never",
-          "tsx": "never"
-        }
-      }
-    ],
+    "comma-dangle": "off",
     "import/order": [
       "error",
       {
