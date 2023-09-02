@@ -19,11 +19,12 @@
     "prepare": "npx simple-git-hooks || :"
   },
   "dependencies": {
+    "@vanilla-extract/css": "^1.13.0",
+    "@vanilla-extract/vite-plugin": "^3.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@linaria/vite": "^4.5.4",
     "@types/eslint": "^8.4.5",
     "@types/eslint-config-prettier": "^6.11.0",
     "@types/lint-staged": "^13.2.0",
